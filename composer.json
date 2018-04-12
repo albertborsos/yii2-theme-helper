@@ -11,13 +11,18 @@
         }
     ],
     "require": {
-        "yiisoft/yii2": "~2.0.0",
-        "yiisoft/yii2-bootstrap": "~2.0.0",
+        "yiisoft/yii2": "~2.0",
+        "yiisoft/yii2-bootstrap": "2.2.x-dev",
         "rmrevin/yii2-fontawesome": "~2.17"
     },
     "autoload": {
         "psr-4": {
             "albertborsos\\themehelper\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
         }
     }
 }
