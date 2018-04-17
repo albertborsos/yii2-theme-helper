@@ -10,6 +10,8 @@ class Nav extends \yii\bootstrap\Nav
 
     public $dropDownOptions = [];
 
+    public $dropDownCaret = '<span class="arrow fa fa-chevron-circle-left"></span>';
+
     public function renderItem($item)
     {
         $extraOptions = []; // ['options' => ['class' => 'nav-label']];
